@@ -337,17 +337,11 @@
             "usable": true,
             "parameter": [
                 {
-                    "name": "普通锁&区域锁",
-                    "type": "select",
-                    "option": [
-                        "0",
-                        "1"
-                    ],
-                    "optionName": [
-                        "普通锁",
-                        "区域锁"
-                    ]
-                }
+                    "name": "输入锁类型(0/1/2/30)",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                },
             ]
         },
         {
