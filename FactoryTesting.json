@@ -1,0 +1,539 @@
+{
+    "Success": true,
+    "data": [
+        {
+            "name": "开锁",
+            "cmd": "@@IMEI,S202,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/开锁.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "锁车",
+            "cmd": "@@IMEI,S302,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/锁车.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "ACC打开",
+            "cmd": "@@IMEI,S326,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/ACC%E5%85%B3%E9%97%AD.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "ACC关闭",
+            "cmd": "@@IMEI,S327,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/ACC关闭.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "打开电池仓",
+            "cmd": "@@IMEI,S328,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/电池仓.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "响铃找车",
+            "cmd": "@@IMEI,S203,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/响铃.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "获取锁状态",
+            "cmd": "@@IMEI,S201,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/锁状态.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "重启设备",
+            "cmd": "@@IMEI,S900,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/重启.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "实时语音播报",
+            "cmd": "@@IMEI,S207,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/语音.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "语音播报文字语音播报文字",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "设置语音文字",
+            "cmd": "@@IMEI,S208,TXT0,TXT1,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/语音文字.png",
+            "type": "setting",
+            "valueNum": 2,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "语音序号",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                },
+                {
+                    "name": "将要播报的文字",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "设置音量",
+            "cmd": "@@IMEI,S209,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/语音音量.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "音量",
+                    "type": "select",
+                    "option": [
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ],
+                    "optionName": [
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "更改服务器",
+            "cmd": "@@IMEI,S301,TXT0,TXT1,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/更改服务器.png",
+            "type": "setting",
+            "valueNum": 2,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "ip",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                },
+                {
+                    "name": "端口",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "震动时蜂鸣器报警是否响的开关",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/是否.png",
+            "cmd": "@@IMEI,S303,TXT0,123,USER&&",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "开关",
+                    "type": "select",
+                    "option": [
+                        "0",
+                        "1"
+                    ],
+                    "optionName": [
+                        "关",
+                        "开"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "实时音频播报",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/是否.png",
+            "cmd": "@@IMEI,S331,123,USER&&",
+            "type": "instructions",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "设置音频文件",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/是否.png",
+            "cmd": "@@IMEI,S332,TXT0,TXT1,123,USER&&",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "开关",
+                    "type": "select",
+                    "option": [
+                        "0",
+                        "15",
+                        "16",
+                        "17",
+                        "18",
+                        "19",
+                        "20",
+                        "21",
+                        "22",
+                        "23",
+                        "24",
+                        "25",
+                        "26",
+                        "27",
+                        "28"
+                    ],
+                    "optionName": [
+                        "自定义          ",
+                        "开锁语音        ",
+                        "锁车语音        ",
+                        "锁车时有轮动语音",
+                        "进入停车场语音  ",
+                        "区域外锁车语音  ",
+                        "锁车超时语音    ",
+                        "离开停车场语音  ",
+                        "临时锁车语音    ",
+                        "报警语音        ",
+                        "电池锁关闭语音  ",
+                        "电池锁打开语音  ",
+                        "电池锁故障      ",
+                        "车锁故障        ",
+                        "超速提示语音    "
+                    ]
+                },
+                {
+                    "name": "URL",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "更改GPS回报时间",
+            "cmd": "@@IMEI,S304,TXT0,TXT1,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/GPS回报时间.png",
+            "type": "setting",
+            "valueNum": 2,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "锁车时秒数",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                },
+                {
+                    "name": "开锁时秒数",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "更改心跳时间",
+            "cmd": "@@IMEI,S307,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/心跳.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "心跳时间（秒）",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "更改GPS预开启时间",
+            "cmd": "@@IMEI,S308,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/预开.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "预开启时间（秒）",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "设置震动检测",
+            "cmd": "@@IMEI,S311,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/抖动.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "开关",
+                    "type": "select",
+                    "option": [
+                        "0",
+                        "1"
+                    ],
+                    "optionName": [
+                        "关",
+                        "开"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "设置区域锁",
+            "cmd": "@@IMEI,S312,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/设置区域锁.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "普通锁&区域锁",
+                    "type": "select",
+                    "option": [
+                        "0",
+                        "1"
+                    ],
+                    "optionName": [
+                        "普通锁",
+                        "区域锁"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "设置区域锁可关",
+            "cmd": "@@IMEI,S313,TXT0,TXT1,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/区域.png",
+            "type": "setting",
+            "valueNum": 2,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "可等待秒数",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                },
+                {
+                    "name": "响铃次数",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "查询区域锁模式",
+            "cmd": "@@IMEI,S314,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/查询区域锁模式.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "设置蓝牙秘钥",
+            "cmd": "@@IMEI,S318,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/设置蓝牙秘钥.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "蓝牙锁密码",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "查询锁模式",
+            "cmd": "@@IMEI,S319,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/查询锁模式.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "设置蓝牙扫描时长",
+            "cmd": "@@IMEI,S320,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/设置蓝牙桩参数（扫描时长）.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "扫描时长",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "设置蓝牙桩扫描间隔",
+            "cmd": "@@IMEI,S321,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/扫描间隔.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "秒",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "设置蓝牙桩是否扫描",
+            "cmd": "@@IMEI,S322,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/是否.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "不扫描&扫描",
+                    "type": "select",
+                    "option": [
+                        "0",
+                        "1"
+                    ],
+                    "optionName": [
+                        "不扫描",
+                        "扫描"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "设置蓝牙桩名称",
+            "cmd": "@@IMEI,S323,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/%E8%93%9D%E7%89%99%E6%A1%A9%E5%90%8D%E7%A7%B0.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "蓝牙名称",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "查询蓝牙桩参数",
+            "cmd": "@@IMEI,S324,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/参数.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "下发扫描蓝牙桩指令",
+            "cmd": "@@IMEI,S325,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/蓝牙桩指令.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "远程升级",
+            "cmd": "@@IMEI,S200,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/升级.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "文件url地址",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "设备轮胎周长",
+            "cmd": "@@IMEI,S309,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/轮胎.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "设备轮胎周长",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "进入出厂模式",
+            "cmd": "@@IMEI,S310,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/进出厂模式.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        }
+    ]
+}
